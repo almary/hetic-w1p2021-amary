@@ -3,16 +3,60 @@ h1
 font-size: 3em;
 font-family: Arial, Helvetica, sans-serif;
 text-align: center;
+color: white;
+margin-top: 170px;
+text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
 }
 
-main
+li
+{
+  list-style: none; /* Enlève les puces des listes */
+}
+
+h2
 {
   font-size: large;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  color: white; 
+  text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+}
+
+ul
+{
+  font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: white;
+  margin-left: -30px;  /* Décale à cause des puces invisibles */
+  text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+}
+
+#ul1:hover {
+  text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+#ul2:hover {
+  text-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
 
 strong
 {
   font-weight: bold;
+}
+
+body
+{
+  background-image: url("https://66.media.tumblr.com/3b91207f219da2649b8bc78466699eed/tumblr_nq7oj8mNyP1upfqh4o1_500.gif");
+  background-color: #010303;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 100%; /* le background se resize avec la taille de la fenêtre automatiquement */
+}
+
+a
+{
+  color: white;
+  text-decoration: none; /* Enlève le soulignement des anchors */
 }
