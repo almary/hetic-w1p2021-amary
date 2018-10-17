@@ -13,8 +13,8 @@ body
 }
 
 @font-face {font-family:"VCR OSD Mono";
-  src:url("VCR_OSD_Mono\VCR_OSD_MONO.eot?") format("eot"),
-  url("VCR_OSD_Mono\VCR_OSD_MONO.woff") format("woff"),
+  src:url("https://github.com/almary/hetic-w1p2021-amary/blob/master/font/VCR_OSD_Mono/VCR_OSD_MONO.eot") format("eot"),
+  url("https://github.com/almary/hetic-w1p2021-amary/blob/master/font/VCR_OSD_Mono/VCR_OSD_MONO.woff") format("woff"),
   url("VCR_OSD_Mono\VCR_OSD_MONO.woff") format("truetype"),
   url("VCR_OSD_Mono\VCR_OSD_MONO.svg#VCROSDMono") format("svg");
   font-weight:normal;
