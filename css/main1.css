@@ -24,7 +24,7 @@ body
 h1
 {
 font-size: 3em;
-font-family: 'VCR OSD Mono', Arial, sans-serif;
+font-family: 'VCR OSD Mono';
 text-align: center;
 color: white;
 text-shadow: #000000 1px 1px, #000000 -0.3px 0.3px, #000000 -0.3px -0.3px, #000000 0.3px -0.3px;
@@ -41,7 +41,7 @@ li
 h2
 {
   font-size: large;
-  font-family: 'VCR OSD Mono', Arial, sans-serif;
+  font-family: 'VCR OSD Mono';
   text-align: center;
   color: white; 
   text-shadow: #000000 1px 1px, #000000 -0.3px 0.3px, #000000 -0.3px -0.3px, #000000 0.3px -0.3px;
@@ -53,7 +53,7 @@ h2
 ul
 {
   font-size: x-large;
-  font-family: 'VCR OSD Mono', Arial, sans-serif;
+  font-family: 'VCR OSD Mono';
   text-align: center;
   color: white;
   text-shadow: #000000 1px 1px, #000000 -0.3px 0.3px, #000000 -0.3px -0.3px, #000000 0.3px -0.3px;
