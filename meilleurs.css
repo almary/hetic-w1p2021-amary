@@ -1,0 +1,46 @@
+li
+{
+ opacity: 0.8 ;
+ text-align: center;
+}
+
+
+body
+{
+  background-image: url("https://66.media.tumblr.com/3b91207f219da2649b8bc78466699eed/tumblr_nq7oj8mNyP1upfqh4o1_500.gif");
+  background-color: #010303;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 100%; /* le background se resize avec la taille de la fenêtre automatiquement */
+}
+
+//*
+.flechedroite 
+{
+  font-size: x-large;
+  font-family: 'VCR OSD Mono', Arial, sans-serif;
+  text-align: center;
+  color: white;
+}
+
+.flechegauche
+{
+  font-size: x-large;
+  font-family: 'VCR OSD Mono', Arial, sans-serif;
+  text-align: center;
+  color: white;
+}
+
+.un {
+  display: block;
+}
+
+.flechedroite:focus ~ .un {
+  display: none;
+}
+
+.flechegauche:focus ~ .un {
+  display: block;
+}
+
