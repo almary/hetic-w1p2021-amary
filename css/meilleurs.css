@@ -1,11 +1,12 @@
 li
 {
- opacity: 0.5 ;
- text-align: center;
- margin-top: 150px;
- padding-bottom: 150px;
- text-shadow: 3px 2px 2px rgba(251, 12, 12,1), 0px -1px 3px rgba(12, 79, 251,.5),-3px 0px 2px rgba(52, 251, 12, 1);
-animation: chromaticMove 4500ms ease infinite,pulse ease 1000ms  infinite;
+  list-style: square; /* Enlève les puces des listes */
+  opacity: 0.5 ;
+  text-align: center;
+  margin-top: 150px;
+  padding-bottom: 150px;
+  text-shadow: 3px 2px 2px rgba(251, 12, 12,1), 0px -1px 3px rgba(12, 79, 251,.5),-3px 0px 2px rgba(52, 251, 12, 1);
+  animation: chromaticMove 4500ms ease infinite,pulse ease 1000ms  infinite;
 }
 
 body
@@ -28,7 +29,7 @@ body
   margin-left: 32em;
   margin-top: -3em;
   text-shadow: 3px 2px 2px rgba(251, 12, 12,1), 0px -1px 3px rgba(12, 79, 251,.5),-3px 0px 2px rgba(52, 251, 12, 1);
-animation: chromaticMove 4500ms ease infinite,pulse ease 200ms  infinite;
+  animation: chromaticMove 4500ms ease infinite,pulse ease 200ms  infinite;
 }
 
 .menu:hover{
