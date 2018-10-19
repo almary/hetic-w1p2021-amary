@@ -1,9 +1,12 @@
 li
 {
- opacity: 0.8 ;
+ opacity: 0.5 ;
  text-align: center;
+ margin-top: 150px;
+ padding-bottom: 150px;
+ text-shadow: 3px 2px 2px rgba(251, 12, 12,1), 0px -1px 3px rgba(12, 79, 251,.5),-3px 0px 2px rgba(52, 251, 12, 1);
+animation: chromaticMove 4500ms ease infinite,pulse ease 1000ms  infinite;
 }
-
 
 body
 {
@@ -13,34 +16,58 @@ body
   background-repeat: no-repeat;
   background-position: center;
   background-size: auto 100%; /* le background se resize avec la taille de la fenêtre automatiquement */
+  overflow: hidden; /* cache barre déroulante*/
 }
 
-//*
-.flechedroite 
+.menu
 {
-  font-size: x-large;
   font-family: 'VCR OSD Mono', Arial, sans-serif;
-  text-align: center;
+  text-decoration: none;
   color: white;
+  position: absolute;
+  margin-left: 32em;
+  margin-top: -3em;
+  text-shadow: 3px 2px 2px rgba(251, 12, 12,1), 0px -1px 3px rgba(12, 79, 251,.5),-3px 0px 2px rgba(52, 251, 12, 1);
+animation: chromaticMove 4500ms ease infinite,pulse ease 200ms  infinite;
 }
 
-.flechegauche
+.menu:hover{
+  text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+ol a{
+  font-family: 'VCR OSD Mono', Arial, sans-serif;
+  text-decoration: none;
+  color: white;
+  text-shadow: 2px 1px 1px rgba(251, 12, 12,1), -4px -1px 10px rgba(12, 79, 251,.5),-1px 0px 1px rgba(52, 251, 12, 1);
+  animation: chromaticMove 500ms ease infinite,pulse ease 200ms  infinite;
+}
+
+#pulpfiction
 {
-  font-size: x-large;
-  font-family: 'VCR OSD Mono', Arial, sans-serif;
-  text-align: center;
-  color: white;
+ padding-top:150px;
 }
 
-.un {
-  display: block;
+#bladerunner
+{
+ padding-top:150px;
 }
 
-.flechedroite:focus ~ .un {
-  display: none;
+#odyssee
+{
+ padding-top:150px;
 }
 
-.flechegauche:focus ~ .un {
-  display: block;
-}
 
+@keyframes pulse { 
+    0%{ opacity:.9;}
+    25%{ opacity:1;}
+    50%{opacity:.9;}
+    75%{ opacity:1;}
+    100%{opacity:.9;}
+}
+@keyframes chromaticMove { 
+    0%{text-shadow: 3px 2px 2px rgba(251, 12, 12,1), 0px -1px 3px rgba(12, 79, 251,.5),0px 0px -2px rgba(52, 251, 12, 1);}
+    50%{text-shadow: 3px 2px 2px rgba(251, 12, 12,1), 0px -1px 3px rgba(12, 79, 251,.5),-3px 2px 3px rgba(52, 251, 12, 1);}
+    100%{text-shadow: 3px 2px 2px rgba(251, 12, 12,1), 0px -1px 3px rgba(12, 79, 251,.5),2px -1px 2px rgba(52, 251, 12, 1);}
+}

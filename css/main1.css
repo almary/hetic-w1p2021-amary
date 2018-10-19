@@ -27,10 +27,12 @@ font-size: 3em;
 font-family: 'VCR OSD Mono', Arial, sans-serif;
 text-align: center;
 color: white;
-text-shadow: #000000 1px 1px, #000000 -0.3px 0.3px, #000000 -0.3px -0.3px, #000000 0.3px -0.3px;
 width: 500px;
 margin: 0 auto; /* centre */
 padding-top:150px;
+text-shadow: 2px 1px 1px rgba(251, 12, 12,1), -4px -1px 10px rgba(12, 79, 251,.5),-2px 0px 1px rgba(52, 251, 12, 1);
+animation: chromaticMove 4500ms ease infinite,pulse ease 200ms  infinite;
+
 }
 
 li
@@ -44,10 +46,12 @@ h2
   font-family: 'VCR OSD Mono', Arial, sans-serif;
   text-align: center;
   color: white; 
-  text-shadow: #000000 1px 1px, #000000 -0.3px 0.3px, #000000 -0.3px -0.3px, #000000 0.3px -0.3px;
   width: 500px;
   margin: 0 auto; /* centre */
   margin-top:50px;
+  text-shadow: 2px 1px 1px rgba(251, 12, 12,1), -4px -1px 10px rgba(12, 79, 251,.5),-1px 0px 1px rgba(52, 251, 12, 1);
+  animation: chromaticMove 4500ms ease infinite,pulse ease 200ms  infinite;
+  
 }
 
 ul
@@ -56,10 +60,11 @@ ul
   font-family: 'VCR OSD Mono', Arial, sans-serif;
   text-align: center;
   color: white;
-  text-shadow: #000000 1px 1px, #000000 -0.3px 0.3px, #000000 -0.3px -0.3px, #000000 0.3px -0.3px;
   margin: 0 auto;
   width: 500px;
   margin-top:50px;
+  text-shadow: 2px 1px 1px rgba(251, 12, 12,1), -4px -1px 10px rgba(12, 79, 251,.5),-1px 0px 1px rgba(52, 251, 12, 1);
+animation: chromaticMove 500ms ease infinite,pulse ease 200ms  infinite;
 }
 
 #ul1:hover {
@@ -81,4 +86,20 @@ a
 {
   color: white;
   text-decoration: none; /* Enlève le soulignement des anchors */
+}
+
+
+
+
+@keyframes pulse { 
+  0%{ opacity:.85;}
+  25%{ opacity:1;}
+  50%{opacity:.85;}
+  75%{ opacity:1;}
+  100%{opacity:.85;}
+}
+@keyframes chromaticMove { 
+  0%{text-shadow: 1px 1px 1px rgba(251, 12, 12,1), 0px -1px 3px rgba(12, 79, 251,.5),1px 0px -2px rgba(52, 251, 12, 1);}
+  50%{text-shadow: 1px 1px 1px rgba(251, 12, 12,1), 0px -1px 3px rgba(12, 79, 251,.5),-1px 2px 3px rgba(52, 251, 12, 1);}
+  100%{text-shadow: 1px 1px 1px rgba(251, 12, 12,1), 0px -1px 3px rgba(12, 79, 251,.5),1px -1px 2px rgba(52, 251, 12, 1);}
 }
