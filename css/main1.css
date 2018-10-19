@@ -13,10 +13,7 @@ body
 }
 
 @font-face {font-family:"VCR OSD Mono";
-  src:url("font/VCR_OSD_Mono/VCR_OSD_MONO.eot") format("eot"),
-  url("font/VCR_OSD_Mono/VCR_OSD_MONO.woff") format("woff"),
-  url("font/VCR_OSD_Mono/VCR_OSD_MONO.ttf") format("truetype"),
-  url("font/VCR_OSD_Mono/VCR_OSD_MONO.svg") format("svg");
+  src:  url("font/VCR_OSD_Mono/VCR_OSD_MONO.woff");
   font-weight:normal;
   font-style:normal;
 }
