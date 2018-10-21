@@ -2,73 +2,71 @@
   box-sizing: border-box;
 }
 
-@font-face {font-family:"VCR OSD Mono";
-  src:url("VCR_OSD_Mono\VCR_OSD_MONO.eot?") format("eot"),
-  url("VCR_OSD_Mono\VCR_OSD_MONO.woff") format("woff"),
-  url("VCR_OSD_Mono\VCR_OSD_MONO.woff") format("truetype"),
-  url("VCR_OSD_Mono\VCR_OSD_MONO.svg#VCROSDMono") format("svg");
-  font-weight:normal;
-  font-style:normal;
+@font-face {
+  font-family: "VCR OSD Mono";
+  src: url("VCR_OSD_Mono\VCR_OSD_MONO.eot?") format("eot"),
+    url("VCR_OSD_Mono\VCR_OSD_MONO.woff") format("woff"),
+    url("VCR_OSD_Mono\VCR_OSD_MONO.woff") format("truetype"),
+    url("VCR_OSD_Mono\VCR_OSD_MONO.svg#VCROSDMono") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
 
-h1
-{
-font-size: 3em;
-font-family: 'VCR OSD Mono', Arial, sans-serif;
-text-align: center;
-color: white;
-text-shadow: #000000 1px 1px, #000000 -0.3px 0.3px, #000000 -0.3px -0.3px, #000000 0.3px -0.3px;
-position: relative; /* Les lignes suivantes sont pour pouvoir bouger le texte */
-z-index: 1000;
-top: 1.5em;
+h1 {
+  font-size: 3em;
+  font-family: "VCR OSD Mono", Arial, sans-serif;
+  text-align: center;
+  color: white;
+  text-shadow: #000000 1px 1px, #000000 -0.3px 0.3px, #000000 -0.3px -0.3px,
+    #000000 0.3px -0.3px;
+  position: relative; /* Les lignes suivantes sont pour pouvoir bouger le texte */
+  z-index: 1000;
+  top: 1.5em;
 }
 
-li
-{
+li {
   list-style: none; /* Enlève les puces des listes */
 }
 
-h2
-{
+h2 {
   font-size: large;
-  font-family: 'VCR OSD Mono', Arial, sans-serif;
+  font-family: "VCR OSD Mono", Arial, sans-serif;
   text-align: center;
-  color: white; 
-  text-shadow: #000000 1px 1px, #000000 -0.3px 0.3px, #000000 -0.3px -0.3px, #000000 0.3px -0.3px;
+  color: white;
+  text-shadow: #000000 1px 1px, #000000 -0.3px 0.3px, #000000 -0.3px -0.3px,
+    #000000 0.3px -0.3px;
   position: relative; /* Les lignes suivantes sont pour pouvoir bouger le texte */
   z-index: 1000;
   top: 4em;
 }
 
-ul
-{
+ul {
   font-size: x-large;
-  font-family: 'VCR OSD Mono', Arial, sans-serif;
+  font-family: "VCR OSD Mono", Arial, sans-serif;
   text-align: center;
   color: white;
-  margin-left: 510px;  /* Dégueulasse cette ligne et la suivante : celle-ci c'est pour centrer le texte */
+  margin-left: 510px; /* Dégueulasse cette ligne et la suivante : celle-ci c'est pour centrer le texte */
   width: 30%; /* Cette ligne pour avoir un texte qui est "compressé pour avoir un retour à la ligne. Mais ça l'enlève du centre, je sais pas pourquoi. */
-  text-shadow: #000000 1px 1px, #000000 -0.3px 0.3px, #000000 -0.3px -0.3px, #000000 0.3px -0.3px;
+  text-shadow: #000000 1px 1px, #000000 -0.3px 0.3px, #000000 -0.3px -0.3px,
+    #000000 0.3px -0.3px;
   position: relative; /* Les lignes suivantes sont pour pouvoir bouger le texte */
   z-index: 1000;
   top: 6em;
 }
 
 #ul1:hover {
-  text-shadow: 0 0 5px rgba(0,0,0,0.5);
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 #ul2:hover {
-  text-shadow: 0 0 5px rgba(0,0,0,0.5);
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
-strong
-{
+strong {
   font-weight: bold;
 }
 
-body
-{
+body {
   background-image: url("https://66.media.tumblr.com/3b91207f219da2649b8bc78466699eed/tumblr_nq7oj8mNyP1upfqh4o1_500.gif");
   background-color: #010303;
   background-attachment: fixed;
@@ -77,8 +75,7 @@ body
   background-size: auto 100%; /* le background se resize avec la taille de la fenêtre automatiquement */
 }
 
-a
-{
+a {
   color: white;
   text-decoration: none; /* Enlève le soulignement des anchors */
 }
